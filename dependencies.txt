@@ -1,0 +1,22 @@
+1. Dependecies 
+ => Express 
+ => Mongoose 
+ => Dotenv 
+ => Body-parser 
+ => Nodemon 
+ => Jwt token (jsonwebtoken)
+ => bcryptjs 
+ => multer(it is helps add the images into Database)
+
+2.Connection to Database 
+
+3 . API Creation 
+ => Models 
+    -> Vendors : username , email(Uniqeu) , password
+    ->Firm : firmName , area , category , region, offer , image 
+    ->Product : productName , price , category , image , bestseller , description 
+    
+ => Controllers   
+    -> VendorController 
+ => Routers 
+    -> vendorRoutes
