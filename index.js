@@ -34,7 +34,7 @@ app.use('/product', productRoutes);
 app.use('/uploads' , express.static('uploads')) ; 
 
 // Test Route
-app.get('/home', (req, res) => {
+app.get('/', (req, res) => {
     res.send("<h1>Welcome to Restaurant</h1>");
 });
 
